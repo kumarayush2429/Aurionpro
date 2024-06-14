@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+}
+
+h1{
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.card .a{
+    cursor: pointer;
+}
+
+.navBar{
+    position: sticky;
+}
+
+
+.navbar{
+    border-bottom: 4px solid rgb(225, 225, 225);
+    box-shadow:2px 2px 2px rgba(225,225,255,0.2);
+}
+
