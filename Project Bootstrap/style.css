@@ -1,0 +1,369 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: "Open Sans", sans-serif !important;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "width" 100;
+}
+
+.phonNumb {
+    font-size: 12px;
+}
+
+.fonTEXT {
+    font-size: 12px;
+}
+
+.topHeader {
+    background-color: #025379;
+}
+
+.flagImg {
+    width: 18px;
+    height: 18px !important;
+    position: relative;
+    top: -2px;
+}
+
+.MailIcon {
+    font-size: 13px;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+.PhonImg {
+    font-size: 13px;
+    line-height: 20px;
+    cursor: pointer;
+
+}
+
+.boxMail {
+    padding: 0px 16px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.phonIcon {
+    padding: 0px 16px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+.contactBox {
+    width: 20px;
+    height: 20px;
+    margin-left: 4px;
+    font-size: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactBox > i {
+    font-size: 8px;
+    cursor: pointer;
+}
+
+.contactImg {
+    position: relative;
+    top: 10px;
+    font-size: 11px;
+}
+
+
+.Menu {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.BUtton {
+    font-size: 14px;
+    font-weight: 700;
+    background-image: linear-gradient(45deg, #f57e07 0%, #FFC342 100%);
+}
+
+.breadCrumbdiv {
+    padding: 10px;
+}
+
+.breadCrumb {
+    font-size: 12px;
+    color: white;
+    background-color: white;
+}
+
+.deTail {
+    font-size: 32px;
+    font-weight: 600;
+    margin-left: 65px;
+    margin-top: -24px;
+}
+
+
+.bg-image {
+    background-image: url(about-us-banner-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 121px;
+}
+
+.growImg {
+    position: relative;
+    z-index: 1;
+    right: -91px;
+    bottom: 12px;
+    object-fit: cover;
+    object-position: center center;
+    border-width: 0 0 0 0;
+    border-color: #EC1D26;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, .2784313);
+    transition: all 1s ease 0s;
+}
+
+.growImg:hover {
+    transform: scale(1.1);
+}
+
+.redBox {
+    width: 291px;
+    height: 253px;
+    position: absolute;
+    right: 50px;
+    bottom: 25px;
+    z-index: 0;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, .28);
+    margin-bottom: -50px;
+    margin-right: -20px;
+}
+
+.redBox2 {
+    width: 291px;
+    height: 253px;
+    position: absolute;
+    left: 50px;
+    bottom: 25px;
+    z-index: 0;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, .28);
+    margin-bottom: -50px;
+    margin-right: -20px;
+}
+
+.headLine {
+    font-size: 24px;
+    font-weight: 300;
+    text-align: left;
+    padding-left: 14px;
+    color: rgb(4, 102, 149);
+}
+
+.headLine2 {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+    padding-left: 14px;
+    color: rgb(4, 102, 149);
+}
+
+.headErLine {
+    font-size: 32px;
+    font-weight: 700;
+    text-align: left;
+    padding-left: 14px;
+    color: rgb(4, 102, 149);
+}
+
+.ParagraPh {
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+    color: rgb(102, 102, 102);
+    box-sizing: border-box;
+    display: block;
+    margin-block-end: 14px;
+    padding: 20px;
+}
+
+.rowNav {
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, .5);
+    transition: border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+
+.bgVision {
+    background-image: url(vision-mission-bg.jpg);
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 824px;
+    position: relative;
+}
+
+.visionHeadLine {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+
+}
+
+.visionPara {
+    font-size: 28px;
+    font-weight: 500;
+    text-align: left;
+    line-height: 28px;
+    color: white;
+    box-sizing: border-box;
+}
+
+.visionLeft {
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+}
+
+
+.visionRight {
+    display: flex;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    position: absolute;
+    right: 8rem;
+    bottom: 0;
+    top: 30rem;
+    left: 8rem;
+}
+
+.tagBox {
+    background-color: rgba(225, 225, 225, 0.7);
+    margin-top: 48px;
+    margin-bottom: 0;
+    padding: 64px 0px 64px 0px;
+
+}
+
+.tagBoxPara {
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(4, 102, 149);
+    text-align: center;
+    padding: 0px 30px 0px 30px;
+}
+
+.fooTer {
+    cursor: pointer;
+    background-color: #025379;
+    border-bottom: 1px solid rgb(225, 225, 225);
+}
+
+.fooTer p {
+    transition: 0.7s ease all;
+}
+
+.fooTer p:hover {
+    color: orange;
+    border-left: 1px solid orange;
+    padding-left: 10px;
+}
+
+.footHead {
+    font-size: 16px;
+}
+
+.footMenu {
+    font-size: 13px;
+    line-height: 10px;
+    position: relative;
+}
+
+.fonTEXT1 {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.solution {
+    text-align: center;
+    position: relative;
+}
+
+.solution::before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    border-left: 1px solid #ddd;
+    left: 115px;
+    top: 6px;
+    margin-top: 8%;
+
+}
+
+.solution::after {
+    position: absolute;
+    width: 135px;
+    content: "";
+    height: 1px;
+    background: rgb(225, 225, 225);
+    right: 22px;
+    left: 0;
+    top: 40px;
+    margin: auto;
+}
+
+
+.solution2 {
+    font-weight: 600;
+}
+
+.solution1::before {
+    content: "";
+    position: absolute;
+    height: 15px;
+    border-left: 1px solid #ddd;
+    top: -32px;
+    left: 40px;
+}
+
+.solution1::after {
+    content: "";
+    position: absolute;
+    height: 15px;
+    border-right: 1px solid #ddd;
+    top: -32px;
+    left: 0;
+    right: -81px;
+    margin: auto;
+}
+
+.navMenu:hover{
+background-color: rgb(225, 225, 225);
+}
+
+/* Responsive CSS */
+@media (max-width:1024px) {
+    .growImg {
+        right: -20px;
+    }
+
+}
+
+@media(min-width:1200px) {
+    .container {
+        max-width: 1200px !important;
+    }
+}
+
+
+
+
+
